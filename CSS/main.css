@@ -1,0 +1,49 @@
+body {
+   background-image: url("https://image.freepik.com/fotos-gratis/pequenas-flores-brancas-em-flor-no-fundo-rosa_23-2147752460.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.navegar{
+    background-color:rgba(255, 110, 180, .4);
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+#botones{
+    padding:0;
+}
+
+#botones li{
+    display: inline-block;
+    padding:30px;
+    padding-left: 110px;
+}
+
+.bienvenida{
+    background-color:rgba(255, 110, 180, .4); 
+    width: 800px;
+    height:500px;
+    margin:auto;
+    margin-top: 10rem;
+    line-height: 300px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.bienvenida>span{
+    display:inline-block;
+	vertical-align:middle;
+    line-height:normal;
+    margin-top: 5rem;
+    color:white;
+    font-family: 'Poller One', cursive;
+    font-size: 50px;
+}
+
+#iniciar{
+    padding-top: 25px;
+    width: 60px;
+    height: 45px;
+}
