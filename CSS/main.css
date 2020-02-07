@@ -9,16 +9,17 @@ body {
     top:0;
     left:0;
     width: 100%;
+
 }
 
-#botones{
+.botones{
     padding:0;
 }
 
-#botones li{
+.botones li{
     display: inline-block;
-    padding:30px;
-    padding-left: 110px;
+    padding:10px;
+    padding-left: 98px;
 }
 
 .bienvenida{
@@ -26,10 +27,9 @@ body {
     width: 800px;
     height:500px;
     margin:auto;
-    margin-top: 10rem;
-    line-height: 300px;
     text-align: center;
     border-radius: 20px;
+    margin-top: 10rem;
 }
 
 .bienvenida>span{
@@ -43,7 +43,19 @@ body {
 }
 
 #iniciar{
-    padding-top: 25px;
-    width: 60px;
+    width: 80px;
     height: 45px;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    background: white;
+    color:black;
+    border-radius: 15px;
+
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poller One', cursive;
 }
