@@ -91,3 +91,64 @@ a{
 h4{
     text-align: center;
 }
+
+#instagram{
+width: 30px;
+}
+#facebook{
+width: 30px;
+}
+#whatsapp{
+width: 35px;
+}
+.menu{
+
+}
+.contacto{
+    width: 400px;
+    height: 500px;
+    display: grid;
+    background-color: white;
+    margin:auto;
+    margin-top: 5rem;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 10px #444);
+}
+.datos{
+    margin:auto;
+    margin-top: 5rem;
+    display: grid;
+    grid-gap:20px;
+    width: 300px;
+}
+
+#name{
+    border-radius: 20px;
+    height: 30px;
+}
+#tlf{
+    border-radius: 20px;
+    height: 30px;
+}
+#email{
+    border-radius: 20px;
+    height: 30px;
+}
+#message{
+    border-radius: 20px;
+    height: 30px;
+    height: 100px;
+}
+#enviar{
+    width: 100px;
+    text-align: center;
+}
+
+footer{
+    background-color: white;
+    width: fit-content;
+}
+footer ul{
+    list-style: none;
+    padding-left: 1rem;
+}
