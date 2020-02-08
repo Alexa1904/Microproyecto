@@ -152,3 +152,9 @@ footer ul{
     list-style: none;
     padding-left: 1rem;
 }
+
+#foto{
+    width: 200px;
+    margin-left: 20rem;
+    text-align: center;
+}
